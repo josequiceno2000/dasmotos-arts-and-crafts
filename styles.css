@@ -37,3 +37,89 @@ h1 {
 strong {
     color: blue;
 }
+
+
+/* Footer */
+#footer-content {
+    text-align: center;
+    background-color: #e7e6e6;
+    position: relative;
+    top: 26px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.advertisement {
+    font-weight: bold;
+}
+
+input {
+    border-radius: 999px;
+    border-color: #eaeaea;
+    border-style: solid;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding: 12px 20px;
+    width: 30%;
+    box-shadow: 0 2px 15px 0 rgba(57, 57, 57, 0.1);
+    margin: 0 auto;
+    position: relative;
+    left: 40px;
+}
+
+button {
+    appearance: auto;
+    background-color: rgb(27, 27, 27);
+    border-radius: 999px;
+    box-sizing: border-box;
+    padding: 6px 20px;
+    color: rgb(255, 255, 255);
+    color-scheme: light;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: -60px;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    text-transform: none;
+    unicode-bidi: isolate;
+    user-select: none;
+    visibility: visible;
+    margin: 0 auto;
+}
+
+#footer-content nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+#copyright {
+    background-color: #d4d4d4;
+    position: relative;
+    bottom: -10px;   
+    padding: 12px 40px;
+    font-size: 12px;
+    width: 100%;
+}
+
+#copyright a {
+    color: black
+}
