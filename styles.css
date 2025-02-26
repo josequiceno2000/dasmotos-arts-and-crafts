@@ -7,6 +7,38 @@ h1 {
     text-align: center;
     font-size: 100px;
     color: khaki;
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 14%;
+    border: 3px solid white;
+    border-radius: 300px;
+    border-color: black;
+    background-color: rgb(252, 234, 73);
+    text-align: center;
+    padding: 8px 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;;
 }
 
 #brushes {
@@ -109,6 +141,9 @@ button {
     display: inline-block;
     margin: 10px auto;
     width: 200px;
+    cursor: pointer;
+    position: relative;
+    padding: 20px 0;
 }
 
 #copyright {
